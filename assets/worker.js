@@ -34,7 +34,7 @@ async function handle(request) {
     "Chrome/114.0.0.0 Safari/537.36"
   );
 
-  const proxied = new Request("https://private.ipasign.pro/sign", {
+  const proxied = new Request("https://wsfteam.duckdns.org/sign", {
     method: "POST",
     headers: forwardh,
     body: request.body,
